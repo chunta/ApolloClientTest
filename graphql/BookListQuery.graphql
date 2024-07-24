@@ -1,8 +1,0 @@
-query BookListQuery {
-  hello
-  books {
-    author
-    title
-  }
-  runIt
-}

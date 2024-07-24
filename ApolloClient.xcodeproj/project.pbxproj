@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F7271FD32C50EF4B00579385 /* BookQuey.graphql in Resources */ = {isa = PBXBuildFile; fileRef = F7271FD22C50EF4B00579385 /* BookQuey.graphql */; };
+		F7271FD62C50EF8000579385 /* RocketReserverAPI in Frameworks */ = {isa = PBXBuildFile; productRef = F7271FD52C50EF8000579385 /* RocketReserverAPI */; };
 		F7C9B25D2C4FDFB800B26E4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C9B25C2C4FDFB800B26E4D /* AppDelegate.swift */; };
 		F7C9B25F2C4FDFB800B26E4D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C9B25E2C4FDFB800B26E4D /* SceneDelegate.swift */; };
 		F7C9B2612C4FDFB800B26E4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C9B2602C4FDFB800B26E4D /* ViewController.swift */; };
@@ -15,11 +17,10 @@
 		F7C9B2692C4FDFBA00B26E4D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F7C9B2682C4FDFBA00B26E4D /* Base */; };
 		F7F4DB1E2C4FEF56003E7821 /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = F7F4DB1D2C4FEF56003E7821 /* Apollo */; };
 		F7F4DB222C4FF3F6003E7821 /* schema.graphqls in Resources */ = {isa = PBXBuildFile; fileRef = F7F4DB202C4FF3F6003E7821 /* schema.graphqls */; };
-		F7F4DB242C4FF43A003E7821 /* BookListQuery.graphql in Sources */ = {isa = PBXBuildFile; fileRef = F7F4DB232C4FF43A003E7821 /* BookListQuery.graphql */; };
-		F7F4DB272C4FF6D6003E7821 /* StarWarsAPI in Frameworks */ = {isa = PBXBuildFile; productRef = F7F4DB262C4FF6D6003E7821 /* StarWarsAPI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F7271FD22C50EF4B00579385 /* BookQuey.graphql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BookQuey.graphql; sourceTree = "<group>"; };
 		F7C9B2592C4FDFB800B26E4D /* ApolloClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApolloClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7C9B25C2C4FDFB800B26E4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7C9B25E2C4FDFB800B26E4D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -29,7 +30,6 @@
 		F7C9B2682C4FDFBA00B26E4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7C9B26A2C4FDFBA00B26E4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7F4DB202C4FF3F6003E7821 /* schema.graphqls */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = schema.graphqls; sourceTree = "<group>"; };
-		F7F4DB232C4FF43A003E7821 /* BookListQuery.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = BookListQuery.graphql; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7F4DB272C4FF6D6003E7821 /* StarWarsAPI in Frameworks */,
+				F7271FD62C50EF8000579385 /* RocketReserverAPI in Frameworks */,
 				F7F4DB1E2C4FEF56003E7821 /* Apollo in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -79,8 +79,8 @@
 		F7F4DB212C4FF3F6003E7821 /* graphql */ = {
 			isa = PBXGroup;
 			children = (
+				F7271FD22C50EF4B00579385 /* BookQuey.graphql */,
 				F7F4DB202C4FF3F6003E7821 /* schema.graphqls */,
-				F7F4DB232C4FF43A003E7821 /* BookListQuery.graphql */,
 			);
 			path = graphql;
 			sourceTree = "<group>";
@@ -103,7 +103,7 @@
 			name = ApolloClient;
 			packageProductDependencies = (
 				F7F4DB1D2C4FEF56003E7821 /* Apollo */,
-				F7F4DB262C4FF6D6003E7821 /* StarWarsAPI */,
+				F7271FD52C50EF8000579385 /* RocketReserverAPI */,
 			);
 			productName = ApolloClient;
 			productReference = F7C9B2592C4FDFB800B26E4D /* ApolloClient.app */;
@@ -135,7 +135,7 @@
 			mainGroup = F7C9B2502C4FDFB700B26E4D;
 			packageReferences = (
 				F7F4DB1C2C4FEF56003E7821 /* XCRemoteSwiftPackageReference "apollo-ios" */,
-				F7F4DB252C4FF6D6003E7821 /* XCLocalSwiftPackageReference "StarWarsAPI" */,
+				F7271FD42C50EF8000579385 /* XCLocalSwiftPackageReference "RocketReserverAPI" */,
 			);
 			productRefGroup = F7C9B25A2C4FDFB800B26E4D /* Products */;
 			projectDirPath = "";
@@ -152,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7F4DB222C4FF3F6003E7821 /* schema.graphqls in Resources */,
+				F7271FD32C50EF4B00579385 /* BookQuey.graphql in Resources */,
 				F7C9B2662C4FDFBA00B26E4D /* Assets.xcassets in Resources */,
 				F7C9B2692C4FDFBA00B26E4D /* Base in Resources */,
 				F7C9B2642C4FDFB800B26E4D /* Base in Resources */,
@@ -166,7 +167,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7C9B2612C4FDFB800B26E4D /* ViewController.swift in Sources */,
-				F7F4DB242C4FF43A003E7821 /* BookListQuery.graphql in Sources */,
 				F7C9B25D2C4FDFB800B26E4D /* AppDelegate.swift in Sources */,
 				F7C9B25F2C4FDFB800B26E4D /* SceneDelegate.swift in Sources */,
 			);
@@ -391,9 +391,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		F7F4DB252C4FF6D6003E7821 /* XCLocalSwiftPackageReference "StarWarsAPI" */ = {
+		F7271FD42C50EF8000579385 /* XCLocalSwiftPackageReference "RocketReserverAPI" */ = {
 			isa = XCLocalSwiftPackageReference;
-			relativePath = StarWarsAPI;
+			relativePath = RocketReserverAPI;
 		};
 /* End XCLocalSwiftPackageReference section */
 
@@ -409,14 +409,14 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		F7271FD52C50EF8000579385 /* RocketReserverAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RocketReserverAPI;
+		};
 		F7F4DB1D2C4FEF56003E7821 /* Apollo */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = F7F4DB1C2C4FEF56003E7821 /* XCRemoteSwiftPackageReference "apollo-ios" */;
 			productName = Apollo;
-		};
-		F7F4DB262C4FF6D6003E7821 /* StarWarsAPI */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = StarWarsAPI;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

@@ -1,0 +1,17 @@
+query BookQuery($title: String!) {
+   book(title: $title) {
+    title
+    author
+  }
+}
+
+query AllBookQuery {
+  books {
+    title
+    author
+  }
+}
+
+query HelloQuery {
+  hello
+}

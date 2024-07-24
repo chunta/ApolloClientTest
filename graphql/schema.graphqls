@@ -31,4 +31,5 @@ type Query {
   hello: String
   runIt: String
   books: [Book]
+  book(title: String!): Book
 }

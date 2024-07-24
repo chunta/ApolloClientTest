@@ -1,5 +1,5 @@
 {
-  "schemaNamespace" : "StarWarsAPI",
+  "schemaNamespace" : "RocketReserverAPI",
   "input" : {
     "operationSearchPaths" : [
       "**/*.graphql"
@@ -14,7 +14,7 @@
       }
     },
     "schemaTypes" : {
-      "path" : "./StarWarsAPI",
+      "path" : "./RocketReserverAPI",
       "moduleType" : {
         "swiftPackageManager" : {
         }
@@ -25,10 +25,10 @@
       }
     }
   },
-"schemaDownload": {
+  "schemaDownloadConfiguration": {
     "downloadMethod": {
         "introspection": {
-            "endpointURL": "http://localhost:4000/",
+            "endpointURL": "http://localhost:4000/graphql",
             "httpMethod": {
                 "POST": {}
             },
